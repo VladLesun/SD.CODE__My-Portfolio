@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Привет, я Влад и это мое портфолио</title>
+
+		<link rel="stylesheet" href="styles/normalize.css" />
+
+		<!-- ! FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	<body class="body-page">
+		<header class="header">
+			<div class="container header__container">
+				<a href="index.html" class="header__logo">
+					<img
+						class="header__logo-img"
+						src="resources/logo.png"
+						alt="Логотип сайта"
+					/>
+				</a>
+
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__item">
+							<a href="#projects" class="header__link">портфолио</a>
+						</li>
+						<li class="header__item">
+							<a href="#competencies" class="header__link">компетенции</a>
+						</li>
+						<li class="header__item">
+							<a href="#services" class="header__link">УСЛУГИ</a>
+						</li>
+						<li class="header__item">
+							<a href="#contacts" class="header__link">КОНТАКТЫ</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="hero">
+				<div class="container hero__container">
+					<div class="hero__wrap">
+						<p class="hero__desc">
+							Разрабатываю имиджевые сайты для малого и среднего бизнеса,
+							которые повышают престиж компании и позволяют выделиться на фоне
+							конкурентов
+						</p>
+						<h1 class="hero__title">
+							Привет, я Саша — фронтенд разработчик и дизайнер сайтов
+						</h1>
+					</div>
+				</div>
+			</section>
+			<section class="projects" id="projects">
+				<div class="container">
+					<h2 class="projects__title title-offset">Самые свежие проекты</h2>
+					<ul class="projects__list">
+						<li class="projects__item project">
+							<a href="" class="project__link">
+								<article class="project__article">
+									<div class="project__article-wrap">
+										<h3 class="project__title">Realhome</h3>
+										<p class="project__desc">дизайн,верстка, настройка</p>
+									</div>
+								</article>
+							</a>
+						</li>
+						<li class="projects__item project">
+							<a href="" class="project__link">
+								<article class="project__article">
+									<div class="project__article-wrap">
+										<h3 class="project__title">GLASS</h3>
+										<p class="project__desc">разработка интерфейса</p>
+									</div>
+								</article>
+							</a>
+						</li>
+						<li class="projects__item project">
+							<a href="" class="project__link">
+								<article class="project__article">
+									<div class="project__article-wrap">
+										<h3 class="project__title">Fesiyen</h3>
+										<p class="project__desc">разработка интерфейса</p>
+									</div>
+								</article>
+							</a>
+						</li>
+					</ul>
+					<button class="projects__btn">Смотреть все проекты</button>
+				</div>
+			</section>
+			<section class="competencies" id="competencies">
+				<div class="container">
+					<h2 class="competencies__title title-offset">Мои компетенции</h2>
+					<ul class="competencies__list">
+						<li class="competencies__item competencie">
+							<article class="competencie__article">
+								<svg
+									class="competencie__icon"
+									viewBox="0 0 45 44"
+									width="45"
+									height="44"
+								>
+									<use href="resources/sprite.svg#html-css" x="0" y="0"></use>
+								</svg>
+
+								<h3 class="competencie__title subtitle-offset">HTML и CSS</h3>
+								<p class="competencie__desc">
+									это основа фронтенд разработки. Умение создавать и правильно
+									структурировать HTML-документы, а также применять стили к этим
+									документам на CSS, является обязательным навыком для каждого
+									фронтенд разработчика.
+								</p>
+							</article>
+						</li>
+						<li class="competencies__item competencie">
+							<article class="competencie__article">
+								<svg
+									class="competencie__icon"
+									viewBox="0 0 45 44"
+									width="45"
+									height="44"
+								>
+									<use href="resources/sprite.svg#javascript" x="0" y="0"></use>
+								</svg>
+								<h3 class="competencie__title subtitle-offset">JavaScript</h3>
+								<p class="competencie__desc">
+									это язык программирования, который используется для создания
+									динамического и интерактивного пользовательского интерфейса.
+									Хороший фронтенд разработчик должен быть знаком с основами
+									JavaScript, включая работу с DOM-деревом, асинхронными
+									запросами и манипуляцией данными на стороне клиента.
+								</p>
+							</article>
+						</li>
+						<li class="competencies__item competencie">
+							<article class="competencie__article">
+								<svg
+									class="competencie__icon"
+									viewBox="0 0 45 44"
+									width="45"
+									height="44"
+								>
+									<use href="resources/sprite.svg#framework" x="0" y="0"></use>
+								</svg>
+								<h3 class="competencie__title subtitle-offset">
+									Работа с библиотеками и фреймворками
+								</h3>
+								<p class="competencie__desc">
+									фронтенд разработчики должны быть знакомы с различными
+									библиотеками и фреймворками, такими как React, Angular, Vue и
+									другими. Умение использовать готовые решения, адаптировать их
+									под нужды проекта и расширять их функциональность, является
+									очень важным навыком.
+								</p>
+							</article>
+						</li>
+						<li class="competencies__item competencie">
+							<article class="competencie__article">
+								<svg
+									class="competencie__icon"
+									viewBox="0 0 45 44"
+									width="45"
+									height="44"
+								>
+									<use href="resources/sprite.svg#weblayout" x="0" y="0"></use>
+								</svg>
+								<h3 class="competencie__title subtitle-offset">
+									Разработка для мобильных устройств&nbsp;и&nbsp;адаптивная
+									верстка
+								</h3>
+								<p class="competencie__desc">
+									фронтенд разработчики должны быть знакомы с различными
+									библиотеками и фреймворками, такими как React, Angular, Vue и
+									другими. Умение использовать готовые решения, адаптировать их
+									под нужды проекта и расширять их функциональность, является
+									очень важным навыком.
+								</p>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="services" id="services">
+				<div class="container">
+					<h2 class="services__title subtitle-offset">
+						Помогаю реализовать широкий спектр задач
+					</h2>
+					<ul class="services__list">
+						<li class="services__item service">
+							<img
+								src="resources/services-1-1400.png"
+								alt=""
+								class="service__image"
+							/>
+							<article class="service__article">
+								<h3 class="service__title title-offset">
+									Разработка сайта под ключ
+								</h3>
+								<p class="service__desc">
+									Это создание дизайн веб-сайтов, созданный для удобства
+									пользователя и решения бизнес-задач Сайты должны быть
+									понятными и удобными, ведь чем понятнее сайт, тем быстрее
+									пользователь совершит целевое действие
+								</p>
+							</article>
+						</li>
+						<li class="services__item service">
+							<img
+								src="resources/services-2-1400.png"
+								alt=""
+								class="service__image"
+							/>
+							<article class="service__article">
+								<h3 class="service__title title-offset">Верстка сайтов</h3>
+								<p class="service__desc">
+									Это процесс создания HTML-документов и применения к ним стилей
+									на CSS. Фронтенд разработчик может помочь создать
+									привлекательный и удобный интерфейс для вашего сайта
+								</p>
+							</article>
+						</li>
+						<li class="services__item service">
+							<img
+								src="resources/services-3-1400.png"
+								alt=""
+								class="service__image"
+							/>
+							<article class="service__article">
+								<h3 class="service__title title-offset">
+									Разработка мобильного интерфейса
+								</h3>
+								<p class="service__desc">
+									Это процесс создания интерактивных элементов на странице с
+									помощью JavaScript. Фронтенд разработчик может помочь создать
+									динамический и удобный пользовательский интерфейс для вашего
+									сайта или приложения.
+								</p>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="contacts" id="contacts">
+				<div class="container">
+					<h2 class="visually-hidden">Контакты</h2>
+					<div class="contacts__wrap">
+						<p class="contacts__desc">для связи:</p>
+						<ul class="contacts__list">
+							<li class="contacts__item">
+								<a
+									href="https://www.instagram.com/vladlesun"
+									class="contacts__link"
+									target="_blank"
+								>
+									instagram
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a
+									href="https://t.me/VladLesun"
+									class="contacts__link"
+									target="_blank"
+								>
+									telegram
+								</a>
+							</li>
+							<li class="contacts__item">
+								<a href="mailto:vladlesunmma@gmail.com" class="contacts__link">
+									mail
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<p class="footer__desc">Портфолио фротнтенд-разработчика Саши Орлова</p>
+				<p class="footer__copyright">Все права защищены.© 2024</p>
+			</div>
+		</footer>
+	</body>
+</html>
