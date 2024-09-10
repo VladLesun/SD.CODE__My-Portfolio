@@ -1,0 +1,23 @@
+.contacts {
+	position: relative;
+	margin: 75px 0 150px;
+	height: 717px;
+	border-radius: 30px;
+	background: var(--gray) url('../resources/contacts-img.png') right/contain
+		no-repeat;
+}
+
+.contacts__wrap {
+	position: absolute;
+	bottom: 90px;
+}
+
+.contacts__desc {
+	margin-bottom: 28px;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 171%;
+	letter-spacing: -0.03em;
+	color: var(--text);
+}

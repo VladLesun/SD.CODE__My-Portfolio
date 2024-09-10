@@ -1,0 +1,99 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+:root {
+	--font-family: 'IBM Plex Mono', sans-serif;
+	--second-family: 'Manrope', sans-serif;
+
+	--lime: #1bff07;
+	--text: #fff;
+	--white: #fff;
+	--black: #000;
+	--gray: #191c19;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	font-family: var(--font-family);
+	font-weight: 400;
+	letter-spacing: -0.03em;
+	background-color: var(--black);
+	color: var(--text);
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+svg {
+	height: 100%;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border: 1px solid transparent;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.container {
+	width: 1180px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	clip: rect(0 0 0 0);
+}
+
+.title-offset {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 55px;
+	letter-spacing: -0.03em;
+}
+
+.subtitle-offset {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 35px;
+	letter-spacing: -0.03em;
+}
