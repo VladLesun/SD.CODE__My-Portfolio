@@ -59,6 +59,22 @@ svg {
 	height: 100%;
 }
 
+input {
+	width: 100%;
+	border: none;
+	outline: none;
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+input[type='number'],
+input[type='number']:hover,
+input[type='number']:focus {
+	appearance: none;
+	-moz-appearance: textfield;
+}
+
 button {
 	margin: 0;
 	padding: 0;
@@ -67,8 +83,12 @@ button {
 	cursor: pointer;
 }
 
+.body_hide {
+	overflow: hidden;
+}
+
 .container {
-	width: 1180px;
+	max-width: 1180px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -96,4 +116,25 @@ button {
 	font-weight: 400;
 	font-size: 35px;
 	letter-spacing: -0.03em;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 100%;
+	}
+	.title-offset {
+		font-size: 45px;
+	}
+	.subtitle-offset {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 580px) {
+	.container {
+		padding: 0 13px;
+	}
+	.title-offset {
+		font-size: 30px;
+	}
 }
